@@ -1,0 +1,81 @@
+.dig4crypto {
+  margin: 0;
+  position: relative;
+  font-size: 48px;
+  line-height: 75px;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+}
+.copyright2023,
+.thankYouFor {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.dig4cryptoParent,
+.footer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dig4cryptoParent {
+  width: 436px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 28px;
+  min-width: 436px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #0c012b;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 96px 192px;
+  box-sizing: border-box;
+  gap: 20px;
+  z-index: 2;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .dig4cryptoParent {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .dig4cryptoParent {
+    min-width: 100%;
+  }
+  .footer {
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .dig4crypto {
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .footer {
+    padding: 62px 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dig4crypto {
+    font-size: 29px;
+    line-height: 45px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

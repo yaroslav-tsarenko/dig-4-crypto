@@ -1,0 +1,463 @@
+.userAccount {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.yourActiveDownloads {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.header {
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #0c012b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  font-size: 20px;
+}
+.productImageIcon {
+  height: 112px;
+  width: 112px;
+  position: relative;
+  object-fit: cover;
+}
+.hostingPackageFor,
+.w1500w {
+  width: 179px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.w1500w {
+  color: #929292;
+}
+.hostingPackageForServerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 8px;
+  min-width: 156px;
+}
+.creditsInfo {
+  white-space: nowrap;
+}
+.credits,
+.creditsInfo {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.creditsInfoParent,
+.productImageParent {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.productImageParent {
+  width: 560px;
+  flex-direction: row;
+  padding: 0 28px 0 0;
+  box-sizing: border-box;
+  gap: 15px;
+  max-width: 100%;
+}
+.hrs,
+.upTime {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.upTimeParent {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.iconsBlock {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconsBlockWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2px;
+}
+.april2024,
+.nextRenewal {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.frameWrapper,
+.nextRenewalParent {
+  display: flex;
+  align-items: flex-start;
+}
+.nextRenewalParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 1px 0 5px;
+}
+.cancel {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 49px;
+}
+.iconsBlock1 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconsBlockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+}
+.renew {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 48px;
+}
+.cancelParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.cancelParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameContainer,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42px;
+}
+.frameContainer,
+.frameGroup {
+  flex-direction: row;
+}
+.frameContainer {
+  width: 179px;
+  align-items: flex-end;
+  gap: 7px;
+}
+.frameGroup {
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 100%;
+  font-size: 16px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #cacaca;
+  box-sizing: border-box;
+}
+.userAccountParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 100%;
+}
+.userDetails {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 128px;
+}
+.header1 {
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #0c012b;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  font-size: 20px;
+}
+.darnellRoob,
+.name {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 42px;
+}
+.darnellRoob {
+  text-align: right;
+  min-width: 93px;
+}
+.checkoutDetailsInner,
+.nameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.nameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.checkoutDetailsInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.emailAddress {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 102px;
+}
+.darnellroobhotmailcom {
+  position: relative;
+  line-height: 20px;
+  text-align: right;
+  white-space: nowrap;
+}
+.checkoutDetailsChild,
+.emailAddressParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.emailAddressParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.checkoutDetailsChild {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.basic,
+.plan {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 32px;
+}
+.basic {
+  text-align: right;
+  min-width: 39px;
+}
+.checkoutDetailsInner1,
+.planParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.planParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.checkoutDetailsInner1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.autoRenewal,
+.expiryDate {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 83px;
+}
+.autoRenewal {
+  min-width: 99px;
+}
+.expiryDateParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.april20241,
+.on {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 99px;
+}
+.on {
+  min-width: 21px;
+}
+.april2024Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 34px;
+  text-align: right;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.checkoutDetailsInner2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.buyCreditsInner,
+.checkoutDetails,
+.checkoutDetailsInner2,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.checkoutDetails {
+  width: 504px;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 34px;
+  box-sizing: border-box;
+  gap: 34.5px;
+  min-width: 504px;
+  font-size: 16px;
+}
+.buyCreditsInner,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  width: 1536px;
+  justify-content: flex-start;
+  gap: 47px;
+}
+.buyCreditsInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .checkoutDetails {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 850px) {
+  .userAccount {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .productImageParent {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    gap: 24px;
+  }
+  .userAccountParent {
+    gap: 18px;
+    min-width: 100%;
+  }
+  .checkoutDetails {
+    gap: 17px;
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .userAccount {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .userDetails,
+  .yourActiveDownloads {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .emailAddressParent,
+  .frameParent2,
+  .nameParent,
+  .planParent {
+    flex-wrap: wrap;
+  }
+}

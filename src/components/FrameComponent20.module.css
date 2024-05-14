@@ -1,0 +1,323 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+  bottom: -128px;
+}
+.frameChild {
+  height: 879px;
+  width: 585px;
+  right: -150.5px;
+  background-color: #0c012b;
+}
+.frameItem {
+  height: 876px;
+  width: 1335px;
+  left: -1066.5px;
+  object-fit: cover;
+}
+.bitmainAntminerS19,
+.sha256AlgorithmMining {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.bitmainAntminerS19 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 40px;
+  font-family: inherit;
+}
+.sha256AlgorithmMining {
+  font-size: 20px;
+  line-height: 24px;
+  color: #b71919;
+}
+.bitmainAntminerS19Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 36px;
+}
+.monthly,
+.thePinnacleOf {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.thePinnacleOf {
+  align-self: stretch;
+}
+.monthly {
+  display: inline-block;
+  min-width: 68px;
+}
+.frameInner {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  min-width: 64px;
+}
+.rectangleDiv {
+  align-self: stretch;
+  height: 4px;
+  position: relative;
+  background-color: #fff;
+  z-index: 4;
+}
+.frameDiv {
+  width: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9.5px;
+}
+.frameWrapper,
+.monthlyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.monthlyParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper {
+  width: 357px;
+  justify-content: flex-end;
+  padding: 0 48px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameContainer,
+.vectorIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.vectorIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameChild1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  opacity: 0.3;
+  z-index: 3;
+}
+.duration {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+}
+.durationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10.5px 0 0;
+}
+.parent {
+  height: 41px;
+  flex: 1;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  min-width: 130px;
+  width: auto;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.frameGroup,
+.frameParent1,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 38px 0 33px;
+}
+.frameGroup {
+  width: 371px;
+  flex-direction: column;
+  padding: 17.5px 0 23px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 20px;
+  max-width: 100%;
+}
+.div,
+.quantity {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+}
+.div {
+  min-width: 7px;
+}
+.wrapper {
+  width: 23px;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 7px;
+}
+.div1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 6px;
+}
+.container {
+  flex: 0.3333;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 13px;
+  z-index: 1;
+  margin-left: -1px;
+}
+.div2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 10px;
+}
+.frame {
+  flex: 1;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 7px;
+  z-index: 2;
+  margin-left: -1px;
+}
+.frameParent2,
+.quantityParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent2 {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quantityParent {
+  width: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.frameButton {
+  align-self: stretch;
+  height: 52px;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  border-radius: 0 0 28px 0;
+  background-color: #1f1f1f;
+  flex-direction: column;
+  padding: 50px 48px;
+  box-sizing: border-box;
+  gap: 24px;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 703px;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 850px) {
+  .bitmainAntminerS19 {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .frameParent {
+    padding: 32px 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bitmainAntminerS19 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .sha256AlgorithmMining {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .monthlyParent {
+    flex-wrap: wrap;
+  }
+  .frameButton,
+  .frameWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,10 @@
+.navWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1px 115px;
+  box-sizing: border-box;
+  max-width: 100%;
+}

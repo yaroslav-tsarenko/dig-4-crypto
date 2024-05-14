@@ -1,0 +1,165 @@
+.quickLinks {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 114px;
+}
+.articles,
+.buyCredits,
+.contact,
+.home,
+.ourStory,
+.services {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 42px;
+}
+.articles,
+.buyCredits,
+.contact,
+.ourStory,
+.services {
+  min-width: 69px;
+}
+.articles,
+.buyCredits,
+.contact,
+.services {
+  min-width: 60px;
+}
+.articles,
+.buyCredits,
+.contact {
+  min-width: 83px;
+}
+.articles,
+.contact {
+  min-width: 56px;
+}
+.quickLinksParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 104px;
+}
+.legal {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+}
+.termsConditions {
+  position: relative;
+  line-height: 20px;
+}
+.cancellation,
+.privacyPolicy,
+.refundPolicy {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 100px;
+}
+.cancellation,
+.privacyPolicy {
+  min-width: 90px;
+}
+.privacyPolicy {
+  min-width: 102px;
+}
+.legalParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  gap: 24px;
+}
+.followUsOn {
+  width: 314px;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.ellipseParent {
+  flex-direction: row;
+  gap: 14px;
+}
+.ellipseParent,
+.followUsOnParent,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.followUsOnParent {
+  width: 160px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+  font-size: 20px;
+}
+.frameParent {
+  width: 664px;
+  flex-direction: row;
+  gap: 92px;
+  min-width: 664px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .frameParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frameParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 46px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .followUsOn,
+  .legal,
+  .quickLinks {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent {
+    gap: 23px;
+  }
+}

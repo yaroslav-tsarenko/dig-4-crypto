@@ -1,0 +1,69 @@
+.instanceChild {
+  height: 339px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.instanceChild,
+.title,
+.title1 {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  line-height: 24px;
+  font-weight: 500;
+}
+.title1 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.title2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0027f9;
+  display: inline-block;
+  min-width: 76px;
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.rectangleParent {
+  width: 467px;
+  align-items: flex-end;
+  min-width: 444px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 850px) {
+  .rectangleParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

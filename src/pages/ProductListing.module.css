@@ -1,0 +1,732 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameChild {
+  height: 100%;
+  width: 585px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0c012b;
+}
+.frameItem {
+  height: 670px;
+  width: 1335px;
+  bottom: -159px;
+  left: -928.3px;
+  object-fit: cover;
+}
+.frameInner {
+  width: 719px;
+  height: 355px;
+  position: relative;
+  border-radius: 0 0 30px 0;
+  background-color: #1f1f1f;
+  display: none;
+  max-width: 100%;
+}
+.exploreOurCrypto,
+.welcomeToOur {
+  width: 599px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.exploreOurCrypto {
+  margin: 0;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcomeToOur {
+  font-size: 16px;
+  line-height: 20px;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: 0 0 30px 0;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px 20px 65px 60.2px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+  z-index: 1;
+}
+.productListingInner,
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  width: 719px;
+  justify-content: flex-start;
+  position: relative;
+}
+.productListingInner,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 158px 272.7px 159px;
+  position: relative;
+}
+.productListingInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 1px 128px;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Kanit;
+}
+.groupIcon {
+  position: absolute;
+  top: 712.9px;
+  left: 0.8px;
+  width: 1920px;
+  height: 730px;
+  object-fit: cover;
+}
+.frameGroup,
+.vectorIcon {
+  position: absolute;
+  left: 0;
+  width: 1921.5px;
+}
+.vectorIcon {
+  top: 0;
+  height: 914.7px;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameGroup {
+  top: 125.8px;
+  height: 1442.9px;
+}
+.answersToYour {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frequentlyAskedQuestions {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #fff;
+}
+.answersToYourQueriesParent {
+  width: 949px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 100%;
+}
+.gettingStartedIs,
+.howDoI {
+  align-self: stretch;
+  position: relative;
+}
+.howDoI {
+  line-height: 24px;
+  font-weight: 500;
+}
+.gettingStartedIs {
+  font-size: 16px;
+  line-height: 20px;
+}
+.howDoIGetStartedWithCrypParent {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  max-width: 100%;
+}
+.frameChild1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent1,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0.1px 0 0;
+  gap: 20px;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 49.5px;
+}
+.frameChild2,
+.whatSecurityMeasures {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild2 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.whatSecurityMeasures {
+  line-height: 24px;
+  font-weight: 500;
+}
+.whatSecurityMeasuresAreInWrapper {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent2,
+.vectorParent {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 1437px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0.1px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.vectorParent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+}
+.canIUpgrade,
+.frameChild4 {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild4 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.canIUpgrade {
+  line-height: 24px;
+  font-weight: 500;
+}
+.canIUpgradeOrDowngradeMyWrapper {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild5 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent3,
+.vectorGroup {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.frameParent3 {
+  width: 1437px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0.1px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.vectorGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+}
+.areThereAny,
+.frameChild6 {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild6 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.areThereAny {
+  line-height: 24px;
+  font-weight: 500;
+}
+.areThereAnyHiddenFeesOrAWrapper {
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild7 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent4 {
+  width: 1437px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.1px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: 20px;
+}
+.vectorContainer {
+  align-items: center;
+  gap: 36px;
+}
+.frameContainer,
+.frameDiv,
+.vectorContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  align-items: flex-start;
+  gap: 36px;
+  text-align: left;
+  color: #fff;
+}
+.frameContainer {
+  align-items: center;
+  gap: 64px;
+}
+.joinDig4cryptoToday {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #b71919;
+}
+.readyToDive {
+  margin: 0;
+  width: 909px;
+  position: relative;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.atDig4cryptoWere {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+}
+.instanceParent,
+.joinDig4cryptoTodayParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.joinDig4cryptoTodayParent {
+  width: 1359px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 16px;
+  color: #fff;
+}
+.instanceParent {
+  position: absolute;
+  top: 181px;
+  left: 192.8px;
+  width: 1536px;
+  gap: 430px;
+  z-index: 2;
+}
+.dig4crypto,
+.frameParent {
+  position: relative;
+  text-align: center;
+}
+.frameParent {
+  align-self: stretch;
+  height: 1569px;
+  max-width: 100%;
+  font-size: 20px;
+  color: #b71919;
+  font-family: Kanit;
+}
+.dig4crypto {
+  margin: 0;
+  font-size: 48px;
+  line-height: 75px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.copyright2023,
+.thankYouFor {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.dig4cryptoParent {
+  width: 436px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  min-width: 436px;
+  max-width: 100%;
+}
+.quickLinks {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 114px;
+}
+.articles,
+.buyCredits,
+.contact,
+.home,
+.ourStory,
+.services {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 42px;
+}
+.articles,
+.buyCredits,
+.contact,
+.ourStory,
+.services {
+  min-width: 69px;
+}
+.articles,
+.buyCredits,
+.contact,
+.services {
+  min-width: 60px;
+}
+.articles,
+.buyCredits,
+.contact {
+  min-width: 83px;
+}
+.articles,
+.contact {
+  min-width: 56px;
+}
+.quickLinksParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 104px;
+}
+.legal {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+}
+.termsConditions {
+  position: relative;
+  line-height: 20px;
+}
+.cancellation,
+.privacyPolicy,
+.refundPolicy {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 100px;
+}
+.cancellation,
+.privacyPolicy {
+  min-width: 90px;
+}
+.privacyPolicy {
+  min-width: 102px;
+}
+.legalParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  gap: 24px;
+}
+.followUsOn {
+  width: 314px;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.ellipseIcon,
+.frameChild8,
+.frameChild9 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.ellipseParent,
+.followUsOnParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.followUsOnParent {
+  width: 160px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+  font-size: 20px;
+}
+.frameParent5 {
+  width: 664px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 92px;
+  min-width: 664px;
+  max-width: 100%;
+}
+.footer,
+.frameParent5,
+.productListing {
+  display: flex;
+  align-items: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: #0c012b;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 96px 192px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Kanit;
+}
+.productListing {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1500px) {
+  .frameParent2,
+  .frameParent3,
+  .frameParent4 {
+    max-width: calc(100% - 0px);
+  }
+  .dig4cryptoParent,
+  .frameParent5 {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    padding-left: 136px;
+    padding-right: 136px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    height: auto;
+    min-height: 1569;
+  }
+  .dig4cryptoParent,
+  .frameParent5 {
+    min-width: 100%;
+  }
+  .footer {
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .exploreOurCrypto {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .rectangleContainer {
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding: 103px 68px;
+    box-sizing: border-box;
+  }
+  .productListingInner {
+    padding-bottom: 83px;
+    box-sizing: border-box;
+  }
+  .dig4crypto,
+  .frequentlyAskedQuestions,
+  .readyToDive {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .dig4crypto {
+    line-height: 60px;
+  }
+  .frameParent5 {
+    flex-wrap: wrap;
+    gap: 46px;
+  }
+  .footer {
+    padding: 62px 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreOurCrypto {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .rectangleContainer {
+    padding-top: 32px;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .productListingInner {
+    padding-bottom: 54px;
+    box-sizing: border-box;
+  }
+  .answersToYour {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frequentlyAskedQuestions {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .areThereAny,
+  .canIUpgrade,
+  .howDoI,
+  .joinDig4cryptoToday,
+  .whatSecurityMeasures {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .dig4crypto,
+  .readyToDive {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .dig4crypto {
+    line-height: 45px;
+  }
+  .followUsOn,
+  .legal,
+  .quickLinks {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent5 {
+    gap: 23px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

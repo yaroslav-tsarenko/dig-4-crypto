@@ -1,0 +1,80 @@
+.productsChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 40px 0;
+  background: linear-gradient(180deg, #500078, #0c012b);
+}
+.cryptopowerX9Mining,
+.frameChild {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cryptopowerX9Mining {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.frameItem {
+  align-self: stretch;
+  height: 52px;
+}
+.cryptopowerX9MiningRigParent {
+  width: 225px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.cryptopowerX9MiningRigParent,
+.products,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  z-index: 1;
+}
+.products {
+  height: 472px;
+  width: 347px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 39px 50px 38px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 850px) {
+  .products {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .cryptopowerX9Mining {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

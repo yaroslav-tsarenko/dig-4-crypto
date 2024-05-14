@@ -1,0 +1,25 @@
+.instanceParent {
+  width: 1536px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 64px 65.5px;
+  min-height: 1126px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 850px) {
+  .instanceParent {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .instanceParent {
+    gap: 16px;
+  }
+}

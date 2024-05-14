@@ -1,0 +1,124 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameChild {
+  width: 585px;
+  height: calc(100% - 128px);
+  top: 0;
+  right: 0;
+  bottom: 128px;
+  background-color: #0c012b;
+}
+.frameItem {
+  height: 670px;
+  width: 1335px;
+  bottom: -175px;
+  left: -929px;
+  object-fit: cover;
+}
+.frameInner {
+  width: 719px;
+  height: 354px;
+  position: relative;
+  border-radius: 0 0 30px 0;
+  background-color: #1f1f1f;
+  display: none;
+  max-width: 100%;
+}
+.discoverAWealth,
+.welcomeToOur {
+  width: 599px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.discoverAWealth {
+  margin: 0;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcomeToOur {
+  font-size: 16px;
+  line-height: 20px;
+}
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 1;
+  border-radius: 0 0 30px 0;
+  background-color: #1f1f1f;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 57px 20px 57px 59.5px;
+  box-sizing: border-box;
+  gap: 16px;
+  z-index: 1;
+}
+.rectangleGroup,
+.rectangleParent {
+  position: relative;
+}
+.rectangleGroup {
+  width: 719px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 143px 272px 175px;
+  box-sizing: border-box;
+  min-height: 800px;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1225px) {
+  .rectangleParent {
+    padding-left: 136px;
+    padding-right: 136px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .discoverAWealth {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .rectangleContainer {
+    padding-left: 29px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding: 93px 68px 114px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverAWealth {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .rectangleContainer {
+    padding-top: 37px;
+    padding-bottom: 37px;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

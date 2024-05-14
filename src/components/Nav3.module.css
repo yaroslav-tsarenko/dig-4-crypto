@@ -1,0 +1,76 @@
+.dig4crypto {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.shopServices {
+  min-width: 112px;
+  white-space: nowrap;
+}
+.contact,
+.readBlogs,
+.shopServices {
+  position: relative;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.readBlogs {
+  min-width: 93px;
+  white-space: nowrap;
+}
+.contact {
+  min-width: 68px;
+}
+.nav,
+.shopServicesParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Kanit;
+}
+.shopServicesParent {
+  margin: 0;
+  width: 405px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 66px;
+  font-size: 16px;
+}
+.nav {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 192px;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: 36px;
+}
+@media screen and (max-width: 1225px) {
+  .nav {
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .shopServicesParent {
+    display: none;
+  }
+  .nav {
+    padding-left: 48px;
+    padding-right: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shopServicesParent {
+    gap: 33px;
+  }
+}

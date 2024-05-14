@@ -1,0 +1,244 @@
+.frameChild {
+  width: 698px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.unleashingThePower {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.theyProvideThe {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.frameItem {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.serversGuarantee247 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.frameInner {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.fasterProcessing {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.rectangleIcon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.adaptableToChanging {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.frameChild1 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.centralizedDataStorage {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.rectangleParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.frameChild2 {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  min-height: 25px;
+}
+.secureWithAdvanced {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: calc(100% - 57px);
+}
+.rectangleParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 24px;
+}
+.frameParent,
+.frameWrapper,
+.theyProvideTheFoundationsUParent,
+.unleashingThePowerOfServerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 482px;
+  font-size: 20px;
+}
+.theyProvideTheFoundationsUParent,
+.unleashingThePowerOfServerParent {
+  gap: 32px;
+}
+.theyProvideTheFoundationsUParent {
+  width: 661px;
+  font-size: 16px;
+}
+.unleashingThePowerOfServerParent {
+  min-width: 688px;
+}
+.pdpInner,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1536px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.pdpInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 20px 128px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .frameChild,
+  .unleashingThePowerOfServerParent {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .unleashingThePower {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .frameDiv,
+  .frameWrapper,
+  .rectangleContainer,
+  .rectangleGroup,
+  .rectangleParent1,
+  .rectangleParent2,
+  .theyProvideTheFoundationsUParent {
+    gap: 16px;
+  }
+  .unleashingThePowerOfServerParent {
+    gap: 16px;
+    min-width: 100%;
+  }
+  .pdpInner {
+    padding-bottom: 83px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unleashingThePower {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .adaptableToChanging,
+  .centralizedDataStorage,
+  .fasterProcessing,
+  .secureWithAdvanced,
+  .serversGuarantee247 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

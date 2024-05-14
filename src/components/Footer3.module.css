@@ -1,0 +1,228 @@
+.dig4crypto {
+  margin: 0;
+  position: relative;
+  font-size: 48px;
+  line-height: 75px;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+}
+.copyright2023,
+.thankYouFor {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.dig4cryptoParent {
+  width: 436px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  min-width: 436px;
+  max-width: 100%;
+}
+.quickLinks {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 114px;
+}
+.articles,
+.buyCredits,
+.contact,
+.home,
+.ourStory,
+.services {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 42px;
+}
+.articles,
+.buyCredits,
+.contact,
+.ourStory,
+.services {
+  min-width: 69px;
+}
+.articles,
+.buyCredits,
+.contact,
+.services {
+  min-width: 60px;
+}
+.articles,
+.buyCredits,
+.contact {
+  min-width: 83px;
+}
+.articles,
+.contact {
+  min-width: 56px;
+}
+.quickLinksParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  gap: 24px;
+  min-width: 104px;
+}
+.legal {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 60px;
+}
+.termsConditions {
+  position: relative;
+  line-height: 20px;
+}
+.cancellation,
+.privacyPolicy,
+.refundPolicy {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 100px;
+}
+.cancellation,
+.privacyPolicy {
+  min-width: 90px;
+}
+.privacyPolicy {
+  min-width: 102px;
+}
+.legalParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 0 0;
+  gap: 24px;
+}
+.followUsOn {
+  width: 314px;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 40px;
+}
+.ellipseParent,
+.followUsOnParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.followUsOnParent {
+  width: 160px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 24px;
+  font-size: 20px;
+}
+.footer,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 664px;
+  justify-content: flex-start;
+  gap: 92px;
+  min-width: 664px;
+}
+.footer {
+  align-self: stretch;
+  background-color: #0c012b;
+  justify-content: space-between;
+  padding: 96px 192px;
+  box-sizing: border-box;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .dig4cryptoParent,
+  .frameParent {
+    flex: 1;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .dig4cryptoParent,
+  .frameParent {
+    min-width: 100%;
+  }
+  .footer {
+    padding-left: 96px;
+    padding-right: 96px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .dig4crypto {
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 46px;
+  }
+  .footer {
+    padding: 62px 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dig4crypto {
+    font-size: 29px;
+    line-height: 45px;
+  }
+  .followUsOn,
+  .legal,
+  .quickLinks {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .frameParent {
+    gap: 23px;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,240 @@
+.frameChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aboutUs,
+.chroniclesOfInnovation {
+  position: relative;
+  display: inline-block;
+}
+.aboutUs {
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #b71919;
+  min-width: 95px;
+}
+.chroniclesOfInnovation {
+  margin: 0;
+  width: 989px;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 600;
+  font-family: inherit;
+  max-width: 100%;
+}
+.blankLine,
+.ourJourneyBegan,
+.weBelieveThat {
+  margin: 0;
+}
+.ourJourneyBeganContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+}
+.aboutUsParent,
+.journeyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutUsParent {
+  align-self: stretch;
+  gap: 24px;
+}
+.journeyContent {
+  width: 1319px;
+}
+.frameItem {
+  width: 118px;
+  height: 118px;
+  position: relative;
+  object-fit: contain;
+}
+.weAreCommitted {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.rectangleGroup {
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frameInner {
+  width: 118px;
+  height: 118px;
+  position: relative;
+  object-fit: contain;
+}
+.wePrioritizeOur {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.rectangleContainer {
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.rectangleIcon {
+  width: 118px;
+  height: 118px;
+  position: relative;
+  object-fit: contain;
+}
+.theSecurityOf {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.frameDiv {
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 219.5px;
+  gap: 20px;
+  font-size: 16px;
+}
+.aboutUsContent {
+  width: 1536px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 128px;
+  max-width: 100%;
+  z-index: 2;
+}
+.aboutUsContentWrapper,
+.ourStoryInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.aboutUsContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+}
+.ourStoryInner,
+.rectangleParent {
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 305px;
+  position: relative;
+  gap: 148px;
+}
+.ourStoryInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 2px 43px 0;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-family: Kanit;
+}
+@media screen and (max-width: 1500px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .frameParent {
+    padding-left: 109px;
+    padding-right: 109px;
+    box-sizing: border-box;
+  }
+  .aboutUsContent {
+    gap: 64px;
+  }
+  .rectangleParent {
+    gap: 74px;
+    padding-bottom: 198px;
+    box-sizing: border-box;
+  }
+  .ourStoryInner {
+    padding-bottom: 28px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .chroniclesOfInnovation {
+    font-size: 58px;
+    line-height: 61px;
+  }
+  .journeyContent {
+    gap: 24px;
+  }
+  .frameParent {
+    padding-left: 54px;
+    padding-right: 54px;
+    box-sizing: border-box;
+  }
+  .aboutUsContent {
+    gap: 32px;
+  }
+  .rectangleParent {
+    gap: 37px;
+    padding-bottom: 129px;
+    box-sizing: border-box;
+  }
+  .ourStoryInner {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutUs {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .chroniclesOfInnovation {
+    font-size: 43px;
+    line-height: 46px;
+  }
+  .frameParent {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .aboutUsContent {
+    gap: 16px;
+  }
+}

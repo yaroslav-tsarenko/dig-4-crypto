@@ -1,0 +1,133 @@
+.savanahKhan {
+  width: 590px;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.demystifyingCryptocurrencyA {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #fff;
+}
+.articleHeader {
+  width: 1154px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  max-width: 100%;
+}
+.articleImageIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.areYouNew,
+.bitcoinBtcWas,
+.blankLine,
+.blankLine1,
+.blankLine10,
+.blankLine11,
+.blankLine12,
+.blankLine13,
+.blankLine14,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.blankLine5,
+.blankLine6,
+.blankLine7,
+.blankLine8,
+.blankLine9,
+.blogTitleDemystifying,
+.cryptocurrencyExchangeYou,
+.cryptocurrencyIsA,
+.cybersecurityIsCritical,
+.digitalWalletA,
+.gettingStarted,
+.popularCryptocurrencies,
+.securityMatters,
+.theCryptocurrencyMarket,
+.theFutureOf,
+.thisBlogIs,
+.toEnterThe,
+.understandingKeyTerms,
+.understandingTheBasics {
+  margin: 0;
+}
+.blogTitleDemystifyingContainer {
+  width: 981px;
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  display: inline-block;
+  max-width: 100%;
+}
+.articleHeaderParent,
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.articleHeaderParent {
+  width: 1576px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 64px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #c83030;
+  font-family: Kanit;
+}
+.blog {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  gap: 128px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .blog {
+    gap: 64px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .demystifyingCryptocurrencyA {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .articleHeaderParent,
+  .blog {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .savanahKhan {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .demystifyingCryptocurrencyA {
+    font-size: 29px;
+    line-height: 31px;
+  }
+  .articleHeaderParent {
+    gap: 16px;
+  }
+}
